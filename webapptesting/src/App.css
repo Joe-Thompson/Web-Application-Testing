@@ -5,12 +5,23 @@
     background-image: url("https://www.intercontinentalboston.com/resourcefiles/mainimages/fenway-park-at-boston-massachusetts-top.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    height: 40rem;
+    height: 55rem;
+    margin-top: 3rem;
+}
+
+.title {
+    color: #BD3039;
+    font-size: 4rem;
+    margin: .7rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: .5rem;
 }
 
 .scoreboard {
     display: flex;
     flex-direction: row;
+
 }
 
 .label {
@@ -22,11 +33,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 3rem;
-    color: red;
-    background-color: darkgrey;
-    padding: 2.5rem;
+    margin: 2rem;
+    color: #BD3039;
+    background-color: white;
+    padding: 1.5rem;
     border-radius: 1rem;
+    width: 145px;
 }
 
 .dashboard {
@@ -69,6 +81,12 @@
     background-color: forestgreen;
     border-radius: .5rem;
     font-size: large;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    padding-top: 1rem;
 }
 
 

@@ -14,6 +14,7 @@ function App() {
   return (
     <div className="App">
 
+      <h1 className='title'>Red Sox Score Keeper</h1>
     <Scoreboard strike={strike} foul={foul} ball={ball} hit={hit} out={out} />
     <Dashboard
                strike={strike} setStrike={setStrike}
