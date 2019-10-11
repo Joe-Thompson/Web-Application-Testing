@@ -5,6 +5,10 @@ import Scoreboard from "./Components/ScoreBoard";
 
 function App() {
 
+  //imports for testing files
+  // import '@testing-library/jest-dom/extend-expect'
+  // import {render, fireEvent} from '@testing-library/react'
+
   const [strike, setStrike] = useState(0);
   const [foul, setFoul] = useState(0);
   const [ball, setBall] = useState(0);
