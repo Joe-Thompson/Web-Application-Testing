@@ -53,10 +53,12 @@ function Dashboard(props) {
 
     return (
         <div className='dashboard' >
-            <button className='strikeBtn' onClick={strikeHandler} >Strike</button>
+            {/* eslint-disable-next-line jsx-a11y/aria-role */}
+            <button role='strike' className='strikeBtn' onClick={strikeHandler} >Strike</button>
             <button className='foulBtn' onClick={foulHandler} >Foul</button>
             <button className='ballBtn' onClick={ballHandler} >Ball</button>
-            <button className='hitBtn' onClick={hitHandler} >Hit</button>
+            {/* eslint-disable-next-line jsx-a11y/aria-role */}
+            <button role='hit' className='hitBtn' onClick={hitHandler} >Hit</button>
 
         </div>
     )

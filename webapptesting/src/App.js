@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
 
-      <h1 className='title'><span><img className='logo' src='https://www.pnglot.com/pngfile/detail/10-102237_boston-red-sox-boston-red-sox-logo-1908.png' alt='missing'/></span>Red Sox Score Keeper</h1>
+      <h1 className='title'><span><img className='logo' src='https://www.pnglot.com/pngfile/detail/10-102237_boston-red-sox-boston-red-sox-logo-1908.png' alt='logo'/></span>Red Sox Score Keeper</h1>
     <Scoreboard strike={strike} foul={foul} ball={ball} hit={hit} out={out} />
     <Dashboard
                strike={strike} setStrike={setStrike}
