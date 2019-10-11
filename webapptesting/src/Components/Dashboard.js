@@ -52,14 +52,13 @@ function Dashboard(props) {
     }
 
     return (
-        <>
-        <h1>Dashboard</h1>
-            <button  onClick={strikeHandler} >Strike</button>
-            <button onClick={foulHandler} >Foul</button>
-            <button onClick={ballHandler} >Ball</button>
-            <button onClick={hitHandler} >Hit</button>
+        <div className='dashboard' >
+            <button className='strikeBtn' onClick={strikeHandler} >Strike</button>
+            <button className='foulBtn' onClick={foulHandler} >Foul</button>
+            <button className='ballBtn' onClick={ballHandler} >Ball</button>
+            <button className='hitBtn' onClick={hitHandler} >Hit</button>
 
-        </>
+        </div>
     )
 };
 
